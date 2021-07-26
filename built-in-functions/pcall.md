@@ -9,7 +9,7 @@ pcall should be used for error handling. This includes checking if an HTTP reque
 pcall runs a function and returns two variables. The first variable is a boolean (true or false) that tells you if the function ran without errors. The second variable is a string that contains an error message, or nil if the function ran without errors.
 
 # Examples
-## HttpRequest
+## HTTP Requests
 ```lua
 local function sendRequest()
   httpService:GetAsync("https://google.com")
