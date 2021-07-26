@@ -11,6 +11,8 @@ pcall runs a function and returns two variables. The first variable is a boolean
 # Examples
 ## HTTP Requests
 ```lua
+...
+
 local function sendRequest()
   httpService:GetAsync("https://google.com")
 end
@@ -23,6 +25,8 @@ end
 ```
 #### or you can also put the function directly in the pcall
 ```lua
+...
+
 local success, errorMessage = pcall(function()
   httpService:GetAsync("https://google.com")
 end)
